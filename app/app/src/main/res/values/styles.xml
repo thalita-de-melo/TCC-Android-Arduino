@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#77625C</item>  <!-- barra de config -->
+        <item name="colorPrimaryDark">#77625C</item>  <!-- status -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomAppTheme" parent="Theme.AppCompat">
+        <item name="android:textColorPrimaryDisableOnly">#345</item>
+        <item name="colorAccent">#FFDA44</item>
+    </style>
+
+    <style name="SwitchCompatStyle" >
+        <item name="colorAccent">#FFDA44</item>
+    </style>
+
+    <style name="CustomAppThemePref">
+        <item name="colorAccent">#3D665A</item>
+    </style>
+
+    <style name="CustomAppThemeSeg">
+        <item name="colorAccent">#E6193F</item>
+    </style>
+
+    <style name="CustomAppThemeMain" parent="Theme.AppCompat">
+        <item name="android:colorPrimary">#212121</item>
+
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="android:colorAccent">#212121</item>
+        <item name="android:statusBarColor">#fff</item>
+
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomPopupStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+    </style>
+
+</resources>
